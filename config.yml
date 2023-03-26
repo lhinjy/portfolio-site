@@ -1,1 +1,58 @@
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: JYJY
+paginate: 5
 theme: charlolamode
+
+menu:
+  main:
+    - name: Resume
+      url: /resume/
+      weight: 30
+    # - name: c
+    #   url: /contact/
+    #   weight: 30
+    # - name: a
+    #   url: /articles/
+    #   weight: 30
+params:
+  author: Jiayin
+
+  hideFooter: true
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+  profileMode:
+    enabled: true
+    title: Lin HuangJiayin
+    description: |
+
+      Hello, I am Jiayin.
+
+       I am a software developer.
+
+    imageUrl: "/images/me_cropped.jpg"
+    imageTitle: my image
+    buttons:
+      - name: View my Resume
+        url: resume/
+      - name: Download my Resume
+        url: "/files/resume_v4.pdf"
+  socialIcons:
+    - name: github
+      url: "https://github.com/lhinjy"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/huangjiayin-lin/"
+
+  # change favicon in images folder (icon for web tab)
+  assets:
+    favicon: "/images/favicon.ico"
+    favicon16x16: "/images/favicon-16x16.png"
+    favicon32x32: "/images/favicon-32x32.png"
+    apple_touch_icon: "/images/apple-touch-icon.png"
+    safari_pinned_tab: "/images/apple-touch-icon.png"
