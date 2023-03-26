@@ -4,12 +4,12 @@ title: QR
 
 ## this
 
-{{< figure src="/images/qr/this.png" title="" >}}
+![this](/images/qr/this.png)
 
 ## LinkedIn
 
-{{< figure src="/images/qr/linkedin.png" title="" >}}
+![linkedin](/images/qr/linkedin.png)
 
 ## GitHub
 
-{{< figure src="/images/qr/github.png" title="" >}}
+![github](/images/qr/github.png)
