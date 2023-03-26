@@ -2,4 +2,4 @@
 title: Resume :)
 ---
 
-{{< figure src="/images/resume_screenshot.png" title="" >}}
+{{< figure src="/images/resume_ss.png" title="" >}}
