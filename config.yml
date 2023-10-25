@@ -30,10 +30,12 @@ params:
     imageUrl: "/images/human/me_cropped.jpg"
     imageTitle: my image
     buttons:
-      - name: View my Resume
+      - name: api/getResume
         url: resume/
-      - name: Download my Resume
+      - name: api/downloadResume
         url: "/files/resume.pdf"
+      - name: api/printer
+        url: printer/
   socialIcons:
     - name: github
       url: "https://github.com/lhinjy"
