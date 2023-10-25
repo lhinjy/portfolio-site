@@ -25,7 +25,7 @@ params:
     enabled: true
     title: Hello
     description: |
-      I'm Jiayin and I'm a 3D printing enthusiast :)
+      I'm Jiayin and I'm a backend engineer
 
     imageUrl: "/images/human/me_cropped.jpg"
     imageTitle: my image
